@@ -1,6 +1,6 @@
 import React from "react";
 
-const HeaderBox = ({ type, title, subtext, user }: HeaderBoxProps) => {
+const HeaderBox = ({ type, title, user, subtext }: HeaderBoxProps) => {
   return (
     <div className="header-box">
       <h1 className="header-box-title">

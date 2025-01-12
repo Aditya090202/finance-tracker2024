@@ -3,7 +3,7 @@ import HeaderBox from "@/components/HeaderBox";
 import BalanceBox from "@/components/BalanceBox";
 const Home = () => {
   const loggedIn = {
-    firstName: "",
+    firstName: "Aditya",
   };
   return (
     <section className="home">
@@ -11,10 +11,10 @@ const Home = () => {
         <HeaderBox
           type="greeting"
           title="Welcome"
-          user={loggedIn.firstName || "Guest"}
+          user={loggedIn?.firstName || "Guest"}
           subtext="Access and manage your account and transactions efficiently"
         />
-        <BalanceBox accounts={[]} numOfBanks={1} currentBalance={1250.35} />
+        <BalanceBox accounts={[]} numOfBanks={1} currentBalance={2257.49} />
       </div>
     </section>
   );

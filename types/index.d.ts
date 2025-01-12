@@ -205,8 +205,8 @@ declare type SearchParamProps = {
   
   declare interface TotalBalanceBoxProps {
     accounts: Account[];
-    totalBanks: number;
-    totalCurrentBalance: number;
+    numOfBanks: number;
+    currentBalance: number;
   }
   
   declare interface FooterProps {
